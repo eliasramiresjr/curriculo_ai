@@ -39,7 +39,6 @@ a vaga é para a posição de Júnior, não use a palavra especialista
 - Mantenha seu currículo base o mais genérico possível
 - Inclua palavras-chave relevantes em `post.md`
 - Teste com diferentes vagas para melhores resultados
-- Sempre que for gerar um curriculo gere um prompt novo
 - Para gerar o curriculo em PDF, execute o html e imprima
 
 ---
