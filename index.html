@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elias da Silva Ramires Junior - Quality Assurance</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.3;
+            color: #000;
+            background: #f5f5f5;
+            font-size: 10.5pt;
+        }
+
+        .container {
+            max-width: 210mm;
+            margin: 0 auto;
+            background: #fff;
+            padding: 0.75in;
+            min-height: 297mm;
+            position: relative;
+        }
+
+        @media print {
+            body {
+                background: #fff;
+            }
+
+            .container {
+                padding: 0.5in;
+                margin: 0;
+            }
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 16px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 8px;
+        }
+
+        .header h1 {
+            font-size: 20pt;
+            font-weight: bold;
+            margin-bottom: 4px;
+            letter-spacing: 1px;
+        }
+
+        .header .title {
+            font-size: 11pt;
+            margin-bottom: 6px;
+            font-weight: normal;
+        }
+
+        .contact {
+            font-size: 9.5pt;
+            line-height: 1.4;
+        }
+
+        .contact a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Headers */
+        .section {
+            margin-bottom: 14px;
+        }
+
+        .section-title {
+            font-size: 11pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2px;
+        }
+
+        /* Summary */
+        .summary {
+            text-align: justify;
+            line-height: 1.4;
+        }
+
+        /* Skills */
+        .skills-grid {
+            line-height: 1.5;
+        }
+
+        .skill-category {
+            margin-bottom: 4px;
+        }
+
+        .skill-category strong {
+            font-weight: bold;
+        }
+
+        /* Experience */
+        .job {
+            margin-bottom: 10px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+
+        .job-title-company {
+            font-weight: bold;
+            font-size: 10.5pt;
+        }
+
+        .job-date {
+            font-style: italic;
+            font-size: 9.5pt;
+            color: #333;
+        }
+
+        .job-position {
+            font-style: italic;
+            margin-bottom: 4px;
+            font-size: 10pt;
+        }
+
+        .job ul {
+            margin-left: 18px;
+            margin-top: 3px;
+        }
+
+        .job li {
+            margin-bottom: 3px;
+            line-height: 1.35;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 8px;
+        }
+
+        .project-header {
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+
+        .project-header a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .project-description {
+            line-height: 1.4;
+        }
+
+        .project ul {
+            margin-left: 18px;
+            margin-top: 3px;
+        }
+
+        .project li {
+            margin-bottom: 3px;
+            line-height: 1.35;
+        }
+
+        /* Education */
+        .education-item {
+            margin-bottom: 6px;
+        }
+
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .education-school {
+            font-weight: bold;
+        }
+
+        .education-date {
+            font-style: italic;
+            font-size: 9.5pt;
+            color: #333;
+        }
+
+        .education-degree {
+            font-size: 10pt;
+        }
+
+        /* Metrics highlighting */
+        strong.metric {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="resume-container">
+        <!-- Header -->
+        <div class="header">
+            <h1>ELIAS DA SILVA RAMIRES JUNIOR</h1>
+            <div class="title">Analista de Qualidade de Software Junior</div>
+            <div class="contact">
+                <a href="mailto:ramires_junior11@hotmail.com">ramires_junior11@hotmail.com</a> |
+                <a href="https://linkedin.com/in/eliasramiresjr" target="_blank">linkedin.com/in/eliasramiresjr</a> |
+                <a href="https://github.com/eliasramiresjr" target="_blank">github.com/eliasramiresjr</a>
+            </div>
+        </div>
+
+        <!-- Professional Summary -->
+        <div class="section">
+            <div class="section-title">RESUMO PROFISSIONAL</div>
+            <div class="summary">
+                <!-- Full-stack Senior Software Engineer with <strong>6+ years</strong> building AI-powered applications, scalable distributed systems, and high-performance data pipelines. Proven expertise architecting <strong>production RAG (Retrieval-Augmented Generation) systems</strong> with <strong>vector databases (Qdrant, pgvector, Weaviate, FAISS)</strong>, <strong>LLM integration (OpenAI GPT-4, Anthropic Claude)</strong>, <strong>document ingestion, chunking, embeddings generation, and semantic retrieval</strong> achieving <strong>40% conversion increase</strong> and <strong>60% support reduction</strong>. Professional-level proficiency in <strong>TypeScript + React</strong> (component testing with Jest/Vitest/React Testing Library), <strong>Node.js/TypeScript backend</strong> (REST/GraphQL APIs, auth, caching), and <strong>PostgreSQL</strong> (schema design, performance optimization). Deployed AWS cloud infrastructure (Lambda, ECS, S3, CloudWatch) with <strong>Docker containers</strong> and <strong>CI/CD pipelines</strong> (GitHub Actions, Vercel). Architected ETL pipelines processing <strong>10M+ records daily</strong>, led teams of <strong>8+ engineers</strong>, scaled SaaS to <strong>$50K+ MRR</strong>, and leveraged AI-assisted development to ship features <strong>3x faster</strong>. -->
+                Sou um profissional da área de Qualidade de Software, com <strong>experiência em testes manuais e foco
+                    crescente em automação de testes</strong>.
+                Tenho como objetivo atuar no desenvolvimento de soluções que tornem o <strong>processo de QA mais
+                    eficiente, escalável e integrado ao ciclo de desenvolvimento</strong>.
+                Utilizo ferramentas como, <strong>Insomnia REST</strong>, <strong>Swagger</strong> e
+                <strong>Curl</strong> para testes de APIs, e venho me especializando em <strong>automação</strong> com
+                <strong>Python</strong> e <strong>JavaScript</strong>, aplicando boas práticas de testes e versionamento
+                de código com <strong>Git</strong> e <strong>GitHub</strong>.
+                Também tenho familiaridade com <strong>metodologias ágeis</strong> (<strong>Scrum</strong>,
+                <strong>Kanban</strong>) e ferramentas de gestão de projetos como <strong>Jira</strong> e
+                <strong>Confluence</strong>.
+                Acredito que qualidade vai além de encontrar erros — é sobre <strong>garantir valor ao produto e à
+                    experiência do usuário</strong>.
+            </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="section">
+            <div class="section-title">Habilidades tecnicas</div>
+            <div class="skills-grid">
+                <div class="skill-category"><strong>Versionamento:</strong> Git, GitHub</div>
+                <div class="skill-category"><strong>Metodologias ágeis:</strong> Scrum, Kanban</div>
+                <div class="skill-category"><strong>Ferramentas de Gestão:</strong> Jira, Confluence, ClickUp</div>
+                <div class="skill-category"><strong>Testes de Software:</strong> Manual, Automação, Funcional, Não
+                    funcional, Cucumber (BDD), CI/CD</div>
+                <div class="skill-category"><strong>Linguagens & Frameworks:</strong> JavaScript, (Cypress, Playwright),
+                    Python (Selenium, Robot Framework, PyAutoGUI)</div>
+            </div>
+        </div>
+
+        <!-- Professional Experience -->
+        <div class="section">
+            <div class="section-title">Experiência Profissional</div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title-company">Instituto de Pesquisas Eldorado</div>
+                    <div class="job-date">2025 - Até o momento</div>
+                </div>
+                <div class="job-position">Estagiário em Qualidade de Software</div>
+                <ul>
+                    <li>Responsável pela execução e manutenção de testes end-to-end (E2E) Web e Android, garantindo a
+                        qualidade e a estabilidade das funcionalidades em ambientes de homologação e produção.</li>
+                    <li>Colaboro com times de desenvolvimento e produto para identificar requisitos, criar cenários de
+                        teste e validar entregas.</li>
+                    <li>Participo ativamente de cerimônias ágeis contribuindo com insights de qualidade desde o início
+                        do ciclo de desenvolvimento.</li>
+                    <li>Reporto bugs e inconsistências através de ferramentas Jira e Confluence, acompanhando sua
+                        correção e reteste.</li>
+                    <li>Contribuo na análise de cenários de usuário, garantindo que o produto final fosse intuitivo,
+                        funcional e sem falhas críticas.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title-company">WiseVAs | Virtual Assistants</div>
+                    <div class="job-date">2025 - 2025 (temporario)</div>
+                </div>
+                <div class="job-position">QA Tester</div>
+                <ul>
+                    <li>Atuei na análise de requisitos, planejamento e execução de testes.</li>
+                    <li>Auxiliei na atualização de documentação de testes, fluxos e regras identificadas para criar
+                        casos de teste, cenários e checklists baseados nas regras de negócio.</li>
+                    <li>Mapeei e compreendi fluxos simples de gestão para apoiar decisões do time, analisar requisitos e
+                        levantar dúvidas para garantir clareza e entendimento.</li>
+                    <li>Colaborei com o time para garantir entregas com qualidade e aprendizado contínuo.</li>
+                    <li>Realizei testes manuais, funcionais e exploratórios para garantir a qualidade e a estabilidade
+                        das versões de software.</li>
+                    <li>Registrei de bugs de forma detalhada na plataforma Click Up, colaborando na priorização de
+                        correções com as equipes de desenvolvimento.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title-company">INDT - Instituto de Desenvolvimento Tecnológico</div>
+                    <div class="job-date">2023 - 2024</div>
+                </div>
+                <div class="job-position">Estagiário em Qualidade de Software</div>
+                <ul>
+                    <li>Realizei testes manuais, funcionais e exploratórios para garantir a qualidade e a estabilidade das versões de builds para Android.</li>
+                    <li>Realizei testes em builds Android customizadas para operadoras ATT, TMO e subsidiárias, assim como operadoras da América Latina.</li>
+                    <li>Executei testes automatizados Google como CTS, GTS, VTS e outros, validando builds para que as mesmas chegassem ao cliente final atendendo os requisitos google.</li>
+                    <li>Executei testes automatizados usando framework interno otimizando o processo de validação e aumentando a eficiência das entregas.</li>
+                    <li>Registrei e documentei bugs detalhadamente nas plataformas Jira e Confluence, colaborando na priorização de correções com as equipes de desenvolvimento.</li>
+                    <li>Participei da criação e edição de casos de teste, alinhando com os requisitos e cenários de usuário para garantir cobertura completa.</li>
+                    <li>Apliquei metodologias ágeis, como Scrum e Kanban, para garantir a qualidade contínua do software, integrando os testes ao fluxo de desenvolvimento de forma colaborativa e eficiente.</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Education & Languages -->
+        <div class="section">
+            <div class="section-title">Educação & Idiomas</div>
+            <div class="education-item">
+                <strong>Tecnólogo em Analise e Desenvolvimento de Sistemas</strong> | Estácio | 2022 - 2024 <br />
+                <strong>Bacharelado em Engenharia de Software</strong> | Cruzeiro do Sul | 2025 - 2027
+            </div>
+            <div class="education-item" style="margin-top: 4px;">
+                <strong>Idiomas:</strong> Inglês (Intermediário), Português (Nativo)
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
